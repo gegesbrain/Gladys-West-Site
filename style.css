@@ -35,43 +35,34 @@ body {
     top: 20px;
     right: 20px;
     z-index: 4;
-    max-width: 90%;    /* não ultrapassa a tela no celular */
+    max-width: 95%;    /* evita estourar no celular */
+    overflow-x: auto;  /* se não couber, cria scroll horizontal */
+    white-space: nowrap; /* impede quebra de linha */
 }
 
 .Header header {
     display: flex;
+    flex-wrap: nowrap; /* não deixa quebrar linha */
     gap: 15px;         /* espaço entre links */
-    flex-wrap: wrap;   /* permite quebrar linha se não couber */
 }
 
 .Header a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 16px;
 }
 
 @media (max-width: 768px) {
     .Header {
-        padding: 15px;
+        padding: 8px 12px;
+        font-size: 14px;       /* reduz fonte */
         border-radius: 20px;
-        font-size: 14px;     /* reduz fonte */
     }
-
-    .Header header {
-        flex-direction: column; /* empilha links */
-        align-items: flex-start;
-        gap: 10px;
-    }
-
     .Header a {
-        display: block;
-        width: 100%;          /* ocupa largura do header */
-        padding: 8px;
-        background: rgba(255,255,255,0.1); /* leve destaque */
-        border-radius: 10px;
+        font-size: 14px;       /* links menores */
     }
 }
-
 
 img {
 
