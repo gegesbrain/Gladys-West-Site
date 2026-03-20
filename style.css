@@ -24,33 +24,20 @@ body {
     src: url('fontAlteHaasGroteskBold.ttf');
     
 }
-/* História   Conquistas   Premiações  Trajetória feminina   Relevância  */
 
-.Header {
-    border-radius: 30px;
-    padding: 10px 20px;
+header {
+
+    border: solid 0px;
+    border-radius: 50px;
+    padding: 10px;
     background: linear-gradient(to right, rgb(62, 31, 136), rgb(150, 47, 34));
     font-family: 'MinhaFonte1';
-    position: fixed;   /* sempre visível */
-    top: 20px;
-    right: 20px;
+    top: 0;
+    right: 0;
+    position: absolute;
     z-index: 4;
-    max-width: 95%;    /* evita estourar no celular */
-    overflow-x: auto;  /* se não couber, cria scroll horizontal */
-    white-space: nowrap; /* impede quebra de linha */
-}
+    margin: 20px;
 
-.Header header {
-    display: flex;
-    flex-wrap: nowrap; /* não deixa quebrar linha */
-    gap: 15px;         /* espaço entre links */
-}
-
-.Header a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
 }
 
 img {
