@@ -14,14 +14,14 @@ body {
 @font-face {
 
     font-family: 'MinhaFonte1';
-    src: url('/fontCoolvetica2.otf');
+    src: url('fontCoolvetica2.otf');
     
 }
 
 @font-face {
 
     font-family: 'MinhaFonte2';
-    src: url('/fontAlteHaasGroteskBold.ttf');
+    src: url('fontAlteHaasGroteskBold.ttf');
     
 }
 /* História   Conquistas   Premiações  Trajetória feminina   Relevância  */
