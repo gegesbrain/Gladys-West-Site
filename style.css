@@ -1,0 +1,98 @@
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+
+    font-family: 'MinhaFonte1';
+    src: url('/fontCoolvetica2.otf');
+    
+}
+
+@font-face {
+
+    font-family: 'MinhaFonte2';
+    src: url('/fontAlteHaasGroteskBold.ttf');
+    
+}
+/* História   Conquistas   Premiações  Trajetória feminina   Relevância  */
+
+.Header {
+
+    border: solid 0px;
+    border-radius: 50px;
+    padding: 10px;
+    background: linear-gradient(to right, rgb(62, 31, 136), rgb(150, 47, 34));
+    font-family: 'MinhaFonte1';
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: 4;
+    margin: 20px;
+
+}
+
+img {
+
+    width: 100%;
+    height: auto;
+    display: block; 
+    justify-content: center;
+    z-index: 1;
+
+}
+
+header a {
+
+    color: rgb(255, 255, 255);
+    margin: 0px 10px;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+header {
+
+    text-align: center;
+    width: 500px;
+    text-decoration: none;
+
+}
+
+h1 {
+
+    font-family: 'MinhaFonte1';
+
+}
+
+p {
+
+    position: absolute;
+    width: 600px;
+    text-align: justify;
+    font-family: 'MinhaFonte2';
+
+}
+
+#transparencia {
+    
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to bottom,
+        rgb(255, 255, 255) 0%,
+        rgba(255, 255, 255, 0) 20%,
+        rgba(255, 255, 255, 0) 80%,
+        rgb(255, 255, 255) 100%
+    ); 
+    z-index: 1000;
+
+}
